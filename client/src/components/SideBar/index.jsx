@@ -42,7 +42,7 @@ export const SideBar = ({ id }) => {
         </Button>
         <Modal show={isModalOpen} onHide={handleModalToggle}>
           {conversationsOpen ? (
-            <NewConversationsModal />
+            <NewConversationsModal closeModal={handleModalToggle} />
           ) : (
             <NewContactsModal closeModal={handleModalToggle} />
           )}

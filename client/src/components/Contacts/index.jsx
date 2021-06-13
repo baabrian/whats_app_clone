@@ -12,4 +12,4 @@ export const Contacts = () => {
   };
 
   return <ListGroup variant='flush'>{renderContacts()}</ListGroup>;
-}
+};
