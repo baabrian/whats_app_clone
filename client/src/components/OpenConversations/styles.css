@@ -1,0 +1,11 @@
+.open-conversations__message-input {
+    height:90px;
+    resize:'none';
+    border-radius: 0px;
+    margin-right: 1rem;
+}
+
+.open-conversations__submit-btn {
+    height:100%;
+    border-radius: 0;
+}
