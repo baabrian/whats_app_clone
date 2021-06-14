@@ -29,7 +29,7 @@ export const NewConversationsModal = ({ closeModal }) => {
   const renderContacts = () => {
     return contacts.map((contact) => {
       return (
-        <Form.Group controllId={contact.id} key={contact.id}>
+        <Form.Group controlId={contact.id} key={contact.id}>
           <Form.Check
             type='checkbox'
             value={selectedContactIds.includes(contact.id)}
